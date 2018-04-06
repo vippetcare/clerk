@@ -22,7 +22,7 @@ Gem::Specification.new do |gem|
   gem.version       = Clerk::VERSION
   gem.licenses      = ['MIT']
 
-  gem.add_dependency 'activerecord', '> 5'
+  gem.add_dependency 'activerecord', '>= 4.2'
   gem.add_dependency 'railties', '> 3.1'
   gem.add_dependency 'sentient_user_request_store', '>= 1.0.0'
 
